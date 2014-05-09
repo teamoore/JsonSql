@@ -1,0 +1,5 @@
+D:\kerem\myJsonToSQL\JsonSql\JsonSql\bin\Debug\JsonSql.dll
+D:\kerem\myJsonToSQL\JsonSql\JsonSql\bin\Debug\JsonSql.pdb
+D:\kerem\myJsonToSQL\JsonSql\JsonSql\obj\Debug\JsonSql.csprojResolveAssemblyReference.cache
+D:\kerem\myJsonToSQL\JsonSql\JsonSql\obj\Debug\JsonSql.dll
+D:\kerem\myJsonToSQL\JsonSql\JsonSql\obj\Debug\JsonSql.pdb
