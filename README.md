@@ -10,7 +10,7 @@ Example
 =======
 
     JsonSqlManager mg = new JsonSqlManager();
-    mg.ConnectionString = "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;";
+    mg.ConnectionString = "Server=myServerAddress;Database=myDBase;User Id=myUsername;Password=***;";
     mg.SqlToJson("select * from Table", System.Data.CommandType.Text);
     Console.WriteLine(mg.JsonResult);
 
