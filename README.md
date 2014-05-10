@@ -6,4 +6,28 @@ Features
 JsonSql is very simple to use. Give the connection information and procedure name (or t-sql query) to execute. 
 Then it returns json formatted result.
 
+Example
+=======
 
+    JsonSqlManager mg = new JsonSqlManager();
+    mg.ConnectionString = "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;";
+    mg.SqlToJson("select * from Table", System.Data.CommandType.Text);
+    Console.WriteLine(mg.JsonResult);
+
+Result:
+
+    [
+        {
+            "UserId": 1,
+            "Email": "abc@gmail.com",
+            "Name": "timur",
+            "Password": "92929",
+            "UserLevel": null,
+            "CityId": null,
+            "Website": null,
+            "Telephone": null,
+            "CreatedDate": "26.09.2013 14:54:45",
+            "Avatar": "user_demo.jpg",
+            "IsActive": null
+        }
+    ]
