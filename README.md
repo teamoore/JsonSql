@@ -15,6 +15,7 @@ Import JsonSql namespace
 using JsonSql;
 ```
 
+The code below connecting database, executing the query and than returns data as json.
 ```csharp
 JsonSqlManager mg = new JsonSqlManager();
 mg.ConnectionString = "Server=myServerAddress;Database=myDBase;User Id=myUsername;Password=***;";
